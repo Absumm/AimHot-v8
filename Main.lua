@@ -979,7 +979,8 @@ do
                     ignoreteam = aimbot.ignoreteam;
                     ignorewalls = aimbot.ignorewalls;
                     maxobscuringparts = aimbot.maxobscuringparts;
-                    name = 'Torso';
+		    funnyrandom = {'Head', 'Torso'}				
+                    name = funnyrandom[math.random(1,2)];
                     fov = aimbot.fovsize;
                     checkifalive = aimbot.checkifalive;
                     -- mode = "mouse";
@@ -1012,7 +1013,8 @@ do
                         ignoreteam = aimbot.ignoreteam;
                         ignorewalls = aimbot.ignorewalls;
                         maxobscuringparts = aimbot.maxobscuringparts;
-                        name = 'Torso';
+			funnyrandom = {'Head', 'Torso'}
+                        name = funnyrandom[math.random(1,2)];
                         fov = aimbot.fovsize;
                         checkifalive = aimbot.checkifalive;
                     })
@@ -1023,7 +1025,8 @@ do
                 ignoreteam = aimbot.ignoreteam;
                 ignorewalls = aimbot.ignorewalls;
                 maxobscuringparts = aimbot.maxobscuringparts;
-                name = 'Torso';
+		funnyrandom = {'Head', 'Torso'}
+                name = funnyrandom[math.random(1,2)];
                 fov = aimbot.fovsize;
                 checkifalive = aimbot.checkifalive;
             })
