@@ -979,7 +979,7 @@ do
                     ignoreteam = aimbot.ignoreteam;
                     ignorewalls = aimbot.ignorewalls;
                     maxobscuringparts = aimbot.maxobscuringparts;
-                    name = 'Head';
+                    name = 'Torso';
                     fov = aimbot.fovsize;
                     checkifalive = aimbot.checkifalive;
                     -- mode = "mouse";
@@ -1012,7 +1012,7 @@ do
                         ignoreteam = aimbot.ignoreteam;
                         ignorewalls = aimbot.ignorewalls;
                         maxobscuringparts = aimbot.maxobscuringparts;
-                        name = 'Head';
+                        name = 'Torso';
                         fov = aimbot.fovsize;
                         checkifalive = aimbot.checkifalive;
                     })
@@ -1023,7 +1023,7 @@ do
                 ignoreteam = aimbot.ignoreteam;
                 ignorewalls = aimbot.ignorewalls;
                 maxobscuringparts = aimbot.maxobscuringparts;
-                name = 'Head';
+                name = 'Torso';
                 fov = aimbot.fovsize;
                 checkifalive = aimbot.checkifalive;
             })
