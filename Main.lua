@@ -1012,7 +1012,7 @@ do
                         ignoreteam = aimbot.ignoreteam;
                         ignorewalls = aimbot.ignorewalls;
                         maxobscuringparts = aimbot.maxobscuringparts;
-                        name = cchar[math.random(1,7)];;
+                        name = cchar[math.random(1,7)];
                         fov = aimbot.fovsize;
                         checkifalive = aimbot.checkifalive;
                     })
